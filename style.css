@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+  .container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    height: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: royalblue;
+    color: white;
+    font-size: 30px;
+    padding: 16px 32px;
+  }
+
+  nav{
+      font-style: oblique;
+      font-size: 40px;
+      padding-left: 30%;
+      z-index: 1000;
+  }
+
+  nav a{
+    text-decoration: none;
+    color: purple;
+  }
+
+
+  .split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .aboutimg{
+    padding-left: 20%;
+    padding-top: 5%;
+    height: 100%;
+    width: 50%;
+    border-radius: 20%;
+  }
+
+  .abouttext{
+    color: white;
+    font-family:  'Times New Roman';
+  }
+  
+  /* Control the left side */
+  .left {
+    top: 100px;
+    left: 0;
+    background-color: white;
+  }
+  
+  /* Control the right side */
+  .right {
+    top: 100px;
+    right: 0;
+    background-color: #111;
+  }
+
+  .centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 50%;
+  }
+
+  .aboutbutton{
+    background-color:purple;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+   display: inline-block;
+    font-size: 16px;
+  }
+
+  .contact{
+    background-color:purple;
+    font-family: serif;
+    color: white;
+    text-align: center;
+  }
+
+  footer{
+    padding-left: 40%;
+  } 
+  footer a{
+    text-decoration: none;
+    margin-left: 30px;
+  }
+  
+  .flex-container{
+    display: flex;
+    flex-direction: row;
+  }
+  .flex-container > div {
+    background-color:cornsilk;
+    /* margin: 10px; */
+    padding: 20px;
+    font-size: 30px;
+    width: 50%;
+    text-align: center;
+
+  }
+  .flex-container > div > img {
+    width: 50%;  
+  }
