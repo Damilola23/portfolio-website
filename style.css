@@ -143,3 +143,26 @@
   .flex-container > div > img {
     width: 50%;  
   }
+
+  .blogdad{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .team{
+    padding-left:50px;
+    padding-top: 50px;
+  }
+
+  .article{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .articletext{
+    padding-top:50px;
+    padding-left: 50px;
+  }
+
+
+
